@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Fonts Pre Connect -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- Meta Tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width , initial-scale=1.0" >
+   <!-- Fav Icon -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/calculator-svgrepo-com.svg">
+
+  <!-- Fonts Links (Roboto 400, 500 and 700 included) -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+
+  <!-- CSS Files Links -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Title -->
+  <title>Simple Calculator</title>
+</head>
+<body>
+
+   
+  <div class="container">
+      <div class="calculator">
+          <input type="text" placeholder="0" id="displayScreen">
+          <button onclick="Clear()">Clear</button>
+          <button onclick="del()">DEL</button>
+          <button onclick="display('%')">%</button>
+          <button onclick="display('/')">/</button>
+           <button onclick="display('7')">7</button>
+          <button onclick="display('8')">8</button>
+          <button onclick="display('9')">9</button>
+          <button onclick="display('*')">*</button>
+            <button onclick="display('4')">4</button>
+          <button onclick="display('5')">5</button>
+          <button onclick="display('6')">6</button>
+          <button onclick="display('-')">-</button>
+          <button onclick="display('1')">1</button>
+            <button onclick="display('2')">2</button>
+             <button onclick="display('3')">3</button>
+          <button onclick="display('+')">+</button>
+          <button onclick="display('.')">.</button>
+            <button onclick="display('0')">0</button>
+              <button onclick="Calculate()" class="equal">=</button>
+         </div>
+  </div>
+
+  <noscript>Your browser don't support JavaScript!</noscript>
+  <script src="main.js"></script>
+</body>
+</html>
